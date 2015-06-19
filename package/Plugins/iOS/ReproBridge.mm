@@ -84,10 +84,10 @@ void _enableCrashReporting() {
     [Repro enableCrashReporting];
 }
 
-void _survey() {
-    NSError *error = nil;
-    [Repro survey:&error];
-}
+// void _survey() {
+//     NSError *error = nil;
+//     [Repro survey:&error];
+// }
 
 void _enableUsabilityTesting() {
     [Repro enableUsabilityTesting];

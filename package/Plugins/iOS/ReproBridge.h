@@ -1,6 +1,5 @@
 //
 //  ReproBridge.h
-//  
 //
 //  Created by nekoe on 6/11/15.
 //  Copyright (c) 2015 Repro Inc. All rights reserved.
@@ -40,8 +39,8 @@ extern "C" {
     // Crash Reporting
     void _enableCrashReporting();
 
-    // Survey
-    void _survey();
+    // // Survey
+    // void _survey();
 
     // Usablity Testing
     void _enableUsabilityTesting();
