@@ -13,7 +13,7 @@ public class Repro {
 	private static extern void _startRecording ();
 
 	[DllImport ("__Internal")]
-	private static extern oid _stopRecording ();
+	private static extern void _stopRecording ();
 
 	[DllImport ("__Internal")]
 	private static extern void _pauseRecording ();
@@ -74,14 +74,14 @@ public class Repro {
 	}
 
 	public static void UnmaskWithRect (string key) {
-		_unmaskWithRect (key)
+		_unmaskWithRect (key);
 	}
 
 	public static void SetUserID (string userId) {
 		_setUserID (userId);
 	}
 
-	public static void Track(eventName) {
+	public static void Track (string eventName) {
 		_track (eventName);
 	}
 
