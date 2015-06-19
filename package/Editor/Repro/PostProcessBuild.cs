@@ -23,7 +23,7 @@ namespace Repro {
 
 		private static void PostProcessBuildForiOS (string pathToBuiltProject) {
 
-			XCProject project = new XCProject (pathToBuiltProject);			
+			XCProject project = new XCProject (pathToBuiltProject);
 
 #if UNITY_4_0 || UNITY_4_0_1 || UNITY_4_1 || UNITY_4_2 || UNITY_4_3 || UNITY_4_4 || UNITY_4_5 || UNITY_4_6
 			CopySDK (project);
@@ -48,13 +48,13 @@ namespace Repro {
 
 			project.AddFrameworkSearchPaths ("$(PROJECT_DIR)/Frameworks/Repro.embeddedframework"); 
 #else
-			project.AddFrameworkSearchPaths ("$(PROJECT_DIR)/Frameworks/Plugins/iOS/Repro.embeddedframework"); 
+			project.AddFrameworkSearchPaths ("$(PROJECT_DIR)/Frameworks/Plugins/iOS/Repro.embeddedframework");
 #endif
 			
 			project.AddOtherLDFlags ("-ObjC");
 			AddSystemFramework (project, "AVFoundation.framework");
 			AddSystemFramework (project, "CoreMedia.framework");
-			AddSystemFramework (project, "SystemConfiguration.framework");			
+			AddSystemFramework (project, "SystemConfiguration.framework");
 
 			project.Save ();
 		}
