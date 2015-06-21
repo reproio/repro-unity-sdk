@@ -1,4 +1,5 @@
 ﻿using System.Runtime.InteropServices;
+using UnityEngine;
 
 public class Repro {
 
@@ -139,7 +140,7 @@ public class Repro {
 		Debug.Log( "Repro: Android is not yet supportd." );
 	}
 
-	public static void Track(eventName) {
+	public static void Track (string eventName) {
 		Debug.Log( "Repro: Android is not yet supportd." );
 	}
 
