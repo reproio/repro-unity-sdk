@@ -9,9 +9,9 @@ PACKAGE="./package"
 
 # update SDK repository
 cd $SDK_REPO
-#git checkout master
-#git pull
-VERSION=$(git describe)
+git checkout master
+git pull
+VERSION=$(git tag --sort v:refname | grep "[0-9]$" | tail -1)
 cd -
 
 # copy SDK into Unity package
