@@ -9,8 +9,8 @@ PACKAGE="./package"
 
 # update SDK repository
 cd $SDK_REPO
-git checkout master
-git pull
+#git checkout master
+#git pull
 VERSION=$(git describe)
 cd -
 
