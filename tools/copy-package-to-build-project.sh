@@ -4,8 +4,8 @@
 #
 
 PACKAGE="./package"
-PROJECT4="./build/4"
-PROJECT5="./build/5"
+PROJECT4="./projects/4"
+PROJECT5="./projects/5"
 
 rm -rf $PROJECT4/Assets/Editor
 rm -rf $PROJECT4/Assets/Plugins
