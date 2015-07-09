@@ -1,7 +1,4 @@
 #! /bin/bash
-#
-# copy Unity Package into project dirctory
-#
 
 PACKAGE="./package"
 PROJECT4="./projects/4"

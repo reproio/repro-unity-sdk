@@ -1,7 +1,4 @@
 #! /bin/bash
-#
-# update iOS SDK in Unity Package
-#
 
 SDK_REPO="../repro-ios-sdk"
 SDK="Repro.embeddedframework"

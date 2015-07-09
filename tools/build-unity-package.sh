@@ -1,7 +1,4 @@
 #! /bin/bash
-#
-# build Unity Package
-#
 
 UNITY="/Applications/Unity4.0/Unity.app/Contents/MacOS/Unity"
 UNITY_PACKAGE="Repro.unitypackage"
