@@ -45,6 +45,9 @@ extern "C" {
     // Usablity Testing
     void _enableUsabilityTesting();
 
+    // Push Notification
+    void _setPushDeviceToken(const char* token);
+
 #ifdef __cplusplus
 }
 #endif

@@ -92,3 +92,7 @@ void _enableCrashReporting() {
 void _enableUsabilityTesting() {
     [Repro enableUsabilityTesting];
 }
+
+void _setPushDeviceToken(const char* token) {
+    [Repro setPushDeviceTokenString:convertCStringToNSString(token)];
+}

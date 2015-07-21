@@ -46,6 +46,9 @@ public class Repro {
 	[DllImport ("__Internal")]
 	private static extern void _enableUsabilityTesting ();
 
+	[DllImport ("__Internal")]
+	private static extern void _setPushDeviceToken (string token);
+
 	public static void Setup (string token) {
 		_setup (token);
 	}
@@ -103,6 +106,10 @@ public class Repro {
 		_enableUsabilityTesting ();
 	}
 
+	public static void SetPushDeviceToken (string token) {
+		_setPushDeviceToken (token);
+	}
+
 #elif UNITY_ANDROID
 	public static void Setup (string token) {
 		Debug.Log( "Repro: Android is not yet supportd." );
@@ -157,6 +164,10 @@ public class Repro {
 	// }
 
 	public static void EnableUsabilityTesting () {
+		Debug.Log( "Repro: Android is not yet supportd." );
+	}
+
+	public static void SetPushDeviceToken (string token) {
 		Debug.Log( "Repro: Android is not yet supportd." );
 	}
 
