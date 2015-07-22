@@ -18,11 +18,8 @@ git pull
 # bump version of Repro.unitypackage
 . tools/bump-version.sh "$BUMP_OPTION"
 
-# copy unity package files to project
-. tools/copy-package-to-build-project.sh
-
 # biild Repro.unitypackage
 . tools/build-unity-package.sh
 
 # push
-. tools/push.sh "$NEW_VERSION"
+. tools/push.sh
