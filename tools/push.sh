@@ -1,6 +1,6 @@
 #! /bin/bash
 
-NEW_VERSION=$(cat ./package/Plugins/Repro/VERSION)
+NEW_VERSION=$(cat ./package/Repro/Plugins/VERSION)
 COMMENT="bump: $NEW_VERSION"
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
