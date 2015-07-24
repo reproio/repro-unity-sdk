@@ -12,8 +12,8 @@ VERSION=$(git tag --sort v:refname | grep "[0-9]$" | tail -1)
 cd -
 
 # copy SDK into Unity package
-rm -rf $PACKAGE/Plugins/iOS/$SDK
-cp -r $SDK_REPO/$SDK $PACKAGE/Plugins/iOS
+rm -rf $PACKAGE/Repro/Plugins/iOS/$SDK
+cp -r $SDK_REPO/$SDK $PACKAGE/Repro/Plugins/iOS
 
 # touch Version file
-echo $VERSION > $PACKAGE/Plugins/iOS/VERSION
+echo $VERSION > $PACKAGE/Repro/Plugins/iOS/VERSION

@@ -15,4 +15,4 @@ else
 fi
 
 NEW_VERSION="$MAJOR_VER"."$MINOR_VER"."$PATCH_VER"
-echo "$NEW_VERSION" > ./package/Plugins/Repro/VERSION
+echo "$NEW_VERSION" > ./package/Repro/Plugins/VERSION
