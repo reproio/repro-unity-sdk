@@ -57,7 +57,6 @@ namespace Repro {
 			project.AddFrameworkSearchPaths ("$(PROJECT_DIR)/Frameworks/Repro/Plugins/iOS/Repro.embeddedframework");
 #endif
 			
-			project.AddOtherLDFlags ("-ObjC");
 			AddSystemFramework (project, "AVFoundation.framework");
 			AddSystemFramework (project, "CoreMedia.framework");
 			AddSystemFramework (project, "SystemConfiguration.framework");
