@@ -49,6 +49,12 @@ public class Repro {
 	[DllImport ("__Internal")]
 	private static extern void RPR_setPushDeviceToken (string token);
 
+	[DllImport ("__Internal")]
+	private static extern void RPR_disableInAppMessageOnActive();
+
+	[DllImport ("__Internal")]
+	private static extern void RPR_showInAppMessage();
+
 	public static void Setup (string token) {
 		RPR_setup (token);
 	}
@@ -108,6 +114,14 @@ public class Repro {
 
 	public static void SetPushDeviceToken (string token) {
 		RPR_setPushDeviceToken (token);
+	}
+
+	public static void DisableInAppMessageOnActive () {
+		RPR_disableInAppMessageOnActive ();
+	}
+
+	public static void ShowInAppMessage () {
+		RPR_showInAppMessage ();
 	}
 
 #elif UNITY_ANDROID

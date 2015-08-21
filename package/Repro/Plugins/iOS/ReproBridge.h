@@ -48,6 +48,10 @@ extern "C" {
     // Push Notification
     void RPR_setPushDeviceToken(const char* token);
 
+    // In-App Message
+    void RPR_disableInAppMessageOnActive();
+    void RPR_showInAppMessage();
+
 #ifdef __cplusplus
 }
 #endif

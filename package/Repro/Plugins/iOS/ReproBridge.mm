@@ -96,3 +96,12 @@ void RPR_enableUsabilityTesting() {
 void RPR_setPushDeviceToken(const char* token) {
     [Repro setPushDeviceTokenString:convertCStringToNSString(token)];
 }
+
+void RPR_disableInAppMessageOnActive() {
+    [Repro disableInAppMessageOnActive];
+}
+
+void RPR_showInAppMessage() {
+    [Repro showInAppMessage];
+}
+
