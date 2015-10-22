@@ -15,5 +15,9 @@ cd -
 rm -rf $PACKAGE/Repro/Plugins/iOS/$SDK
 cp -r $SDK_REPO/$SDK $PACKAGE/Repro/Plugins/iOS
 
+# remove Javascript file
+rm -f $PACKAGE/Repro/Plugins/iOS/$SDK/Resources/ReproSDKResources.bundle/repro.js
+rm -f $PACKAGE/Repro/Plugins/iOS/$SDK/Repro.framework/ReproSDKResources.bundle/repro.js
+
 # touch Version file
 echo $VERSION > $PACKAGE/Repro/Plugins/iOS/VERSION

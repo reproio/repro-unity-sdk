@@ -59,9 +59,10 @@ namespace Repro {
 			
 			AddSystemFramework (project, "AVFoundation.framework");
 			AddSystemFramework (project, "CoreMedia.framework");
-			AddSystemFramework (project, "SystemConfiguration.framework");
+			AddSystemFramework (project, "CoreTelephony.framework");
 			AddSystemFramework (project, "MobileCoreServices.framework");
 			AddSystemFramework (project, "Security.framework");
+			AddSystemFramework (project, "SystemConfiguration.framework");
 
 			project.Save ();
 		}
