@@ -3,7 +3,60 @@ using UnityEngine;
 
 public class Repro {
 
-#if UNITY_IPHONE
+#if UNITY_EDITOR
+
+	public static void Setup (string token) {
+	}
+
+	public static void SetLogLevel (string logLevel) {
+	}
+
+	public static void StartRecording () {
+	}
+
+	public static void StopRecording () {
+	}
+
+	public static void PauseRecording () {
+	}
+
+	public static void ResumeRecording () {
+	}
+
+	public static void MaskWithRect (float x, float y, float width, float height, string key) {
+	}
+
+	public static void UnmaskWithRect (string key) {
+	}
+
+	public static void SetUserID (string userId) {
+	}
+
+	public static void Track (string eventName) {
+	}
+
+	public static void TrackWithProperties (string eventName, string jsonDictionary) {
+	}
+
+	public static void EnableCrashReporting () {
+	}
+
+	// public static void Survey () {
+	// }
+
+	public static void EnableUsabilityTesting () {
+	}
+
+	public static void SetPushDeviceToken (string token) {
+	}
+
+	public static void DisableInAppMessageOnActive () {
+	}
+
+	public static void ShowInAppMessage () {
+	}
+
+#elif UNITY_IPHONE
 	[DllImport ("__Internal")]
 	private static extern void RPR_setup (string token);
 
@@ -125,6 +178,7 @@ public class Repro {
 	}
 
 #elif UNITY_ANDROID
+
 	public static void Setup (string token) {
 		Debug.Log( "Repro: Android is not yet supportd." );
 	}
@@ -182,6 +236,14 @@ public class Repro {
 	}
 
 	public static void SetPushDeviceToken (string token) {
+		Debug.Log( "Repro: Android is not yet supportd." );
+	}
+
+	public static void DisableInAppMessageOnActive () {
+		Debug.Log( "Repro: Android is not yet supportd." );
+	}
+
+	public static void ShowInAppMessage () {
 		Debug.Log( "Repro: Android is not yet supportd." );
 	}
 
