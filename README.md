@@ -7,3 +7,4 @@
 
 ## Supported Platforms
 - iOS
+- Android
