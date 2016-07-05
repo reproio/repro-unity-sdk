@@ -1,3 +1,11 @@
+# 2.1.0 (2016/07/05)
+
+**The special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/unity.html#upgrading-to-2-1-0).**
+
+## Improvements
+
+- Update repro-android-sdk to [1.2.0](https://github.com/reproio/repro-android-sdk/releases/tag/1.2.0)
+
 # 2.0.2 (2016/06/21)
 
 ## Improvements
