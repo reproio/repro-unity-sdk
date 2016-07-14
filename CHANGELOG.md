@@ -1,3 +1,9 @@
+# 2.1.1 (2016/07/14)
+
+## Improvements
+
+- Supports Unity 4.7
+
 # 2.1.0 (2016/07/05)
 
 **The special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/unity.html#upgrading-to-2-1-0).**
