@@ -1,3 +1,10 @@
+# 2.1.2 (2016/07/21)
+
+## Improvements
+
+- Update repro-ios-sdk to [1.7.34](https://github.com/reproio/repro-ios-sdk/releases/tag/1.7.34)
+- Update repro-android-sdk to [1.2.9](https://github.com/reproio/repro-android-sdk/releases/tag/1.2.9)
+
 # 2.1.1 (2016/07/14)
 
 ## Improvements
