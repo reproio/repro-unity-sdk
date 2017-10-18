@@ -12,6 +12,11 @@
 - [EN](http://docs.repro.io/en/dev/sdk/getstarted/unity.html)
 - [JA](http://docs.repro.io/ja/dev/sdk/getstarted/unity.html)
 
+## Release Notes
+
+- [EN](http://docs.repro.io/en/releases/sdk/unity/releases.html)
+- [JA](http://docs.repro.io/ja/releases/sdk/unity/releases.html)
+
 ## Documentation
 
 Read [the documentation](http://docs.repro.io) for further information
