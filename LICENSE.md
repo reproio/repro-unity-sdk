@@ -16,7 +16,7 @@ This product includes 'RSSwizzle' (https://github.com/rabovik/RSSwizzle), which 
 ----------------------------------------------------------------
 
 This product includes a part of 'Mixpanel iOS SDK' (https://github.com/mixpanel/mixpanel-iphone), which is released under the following license(s):
-    Apatch 2 <http://opensource.org/licenses/Apache-2.0>
+    Apache 2 <http://opensource.org/licenses/Apache-2.0>
 
 ----------------------------------------------------------------
 
@@ -26,12 +26,12 @@ This product includes 'AFNetworking' (https://github.com/AFNetworking/AFNetworki
 ----------------------------------------------------------------
 
 This product includes 'Grafika' (https://github.com/google/grafika), which is released under the following license(s):
-    Apatch 2 <http://opensource.org/licenses/Apache-2.0>
+    Apache 2 <http://opensource.org/licenses/Apache-2.0>
 
 ----------------------------------------------------------------
 
 This product includes a part of 'Mixpanel Android SDK' (https://github.com/mixpanel/mixpanel-android), which is released under the following license(s):
-    Apatch 2 <http://opensource.org/licenses/Apache-2.0>
+    Apache 2 <http://opensource.org/licenses/Apache-2.0>
 
 ----------------------------------------------------------------
 
